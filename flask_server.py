@@ -9,7 +9,7 @@ app = Flask(__name__)
 class Mongoinit:
     def __init__(self, data):
         # to use mongodb+srv I had to install dnspython library
-        self.client = MongoClient("mongodb+srv://eric:greendeck@cluster0.r52hr.mongodb.net/greendeck?retryWrites=true&w=majority")
+        self.client = MongoClient("mongodb+srv://<user>:<password>@<cluster_name>.r52hr.mongodb.net/<database>?retryWrites=true&w=majority")
         database = self.client['greendeck']
         # 'records' is the collection on my mongodb atlas database
         self.records = database['task1']
