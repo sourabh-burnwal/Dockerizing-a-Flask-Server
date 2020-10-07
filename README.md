@@ -9,11 +9,17 @@ A Flask Server for CRUD operations to a database on MongoDB Atlas. Finally, dock
   - All one needs is Docker installed and a Docker file
   - In the repo, 'Dockerfile' is the file to build the image
   - To build the image:
+    ```console
     $ docker build .
+    ````
   - Tag this image:
+    ```console
     $ docker tag <imageID> flaskimage
+    ```
   - Now start a container using this image:
+    ```console
     $ docker run -dit --name flaskserver -p 5055:5055 flaskimage
+    ```
   - Since port 5055 has been exposed, the flask server will be accessible via localhost:5055
   
 ### Access API on the localhost:
