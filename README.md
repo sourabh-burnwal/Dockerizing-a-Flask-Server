@@ -91,4 +91,4 @@ A Flask Server for CRUD operations to a database on MongoDB Atlas. Finally, dock
    - Error I am getting
       ![alt text](https://github.com/sourabh-burnwal/Dockerizing-a-Flask-Server/blob/main/Screenshots/Error%20Because%20of%20WSL2.png)
       
-   - I have found the issue, it's happening because WSL gives dynamic DNS nameservers and it gets copied in the containers. I changed the same to Google's. But, later found out       that the same needs to be done in the Ubuntu as well. I am sure the ones aren't using WSL won't get any errors. But if anyone gets, start a issue thread.
+   - I have found the issue, it's happening because WSL gives dynamic DNS nameservers and it gets copied in the containers. I changed the same to Google's. But, later found out       that the same needs to be done in the Ubuntu as well. I am sure the ones aren't using WSL won't get any errors. But if anyone does, start a issue thread.
