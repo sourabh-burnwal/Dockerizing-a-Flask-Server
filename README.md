@@ -1,4 +1,4 @@
-# Dockerizing-a-Flask-Server-
+# Dockerizing-a-Flask-Server
 A Flask Server for CRUD operations to a database on MongoDB Atlas. Finally, dockerizing this application.
 
 ### First create Cluster, Database and a Collection on MongoDB Atlas:
