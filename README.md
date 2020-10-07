@@ -54,29 +54,29 @@ A Flask Server for CRUD operations to a database on MongoDB Atlas. Finally, dock
                     }
      }
      ```
-    - To Update:
+   - To Update:
       ```yaml
-      {
-        "database": "greendeck",
-        "collection": "records",
-        "Filter": {
-                    "name": "Jellycat Blossom Tulip Bunny Grabber, Pink"
-                  },
-        "NewValues": {
-                            "brand_name": "jellydog",
-                            "regular_price_value": 14.0
-                           }
-       }
+     {
+       "database": "greendeck",
+       "collection": "records",
+       "Filter": {
+                   "name": "Jellycat Blossom Tulip Bunny Grabber, Pink"
+                 },
+       "NewValues": {
+                      "brand_name": "jellydog",
+                      "regular_price_value": 14.0
+                    }
+      }
        ```
-    - To Delete:
+   - To Delete:
       ```yaml
-      {
-        "database": "greendeck",
-        "collection": "records",
-        "Filter": {
-                    "name": "Jellycat Blossom Tulip Bunny Grabber, Pink"
-                  }
-       }
+     {
+       "database": "greendeck",
+       "collection": "records",
+       "Filter": {
+                   "name": "Jellycat Blossom Tulip Bunny Grabber, Pink"
+                 }
+      }
        ```
        
  ### Important:
